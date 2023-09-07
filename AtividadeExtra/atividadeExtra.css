@@ -1,81 +1,94 @@
-figure{
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    flex: 1;
+    margin-right: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+figure {
     max-width: 100%;
     height: auto;
     float: left;
-    margin: 0 auto;
+    margin: 5px;
 }
 
-section{
+section {
     float: left;
     width: 660px;
-    flex: 1;
 }
 
-.direita{
-   float: right;
-   width: 100%;
-}
-
-#todo
-{
-    font-family: Arial, sans-serif, "times";
-    margin-left: 100px;
-}
-
-#Dragonball
-{
-    border: 2px solid #ffffff;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 30px auto;
-    background-color:hsl(240, 1%, 41%);
-    float: left;
-}
-
-#Naruto
-{
-    border: 2px solid #ffffff;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 30px auto;
-    background-color:hsl(240, 1%, 41%);
-    float: left;
-}
-
-#Demon
-{
-    border: 2px solid #ffffff;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 30px auto;
-    background-color:hsl(240, 1%, 41%);
-    float: left;
-}
-
-/* titulo dos campos */
-label {
-    font-size: 12px;
-    color: black;
-}
-
-/* legenda dos campos */
-.legenda{
+.direita {
     float: right;
+    width: 100%;
+    margin-bottom: 50%;
+}
+
+#todo {
+    font-family: Arial, sans-serif, "times";
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+#Dragonball {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: hsl(240, 1%, 41%);
+    float: left;
+}
+
+#Naruto {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: hsl(240, 1%, 41%);
+    float: left;
+}
+
+#Demon {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: hsl(240, 1%, 41%);
+    float: left;
+}
+
+.side {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 1px;
+    background-color: hsl(240, 1%, 41%);
+    float: right;
+    margin: 10% auto;
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
-    margin-bottom: 10px;
+    margin-bottom: 900px;
+}
+
+#paragrafoSide {
     text-align: center;
+}
+
+#paragrafo {
+    text-align: justify;
 }
 
 .rodape {
     border: 2px solid #ffffff;
     border-radius: 10px;
-    padding: 1px;
-    margin: 3px auto;
-    background-color:hsl(240, 1%, 41%);
+    padding: 3px;
+    background-color: hsl(240, 1%, 41%);
     float: right;
-    margin: 0 auto;
+    margin-block-end: auto;
     text-align: center;
     font-style: italic;
 }
