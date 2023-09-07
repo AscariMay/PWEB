@@ -1,0 +1,81 @@
+figure{
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin: 0 auto;
+}
+
+section{
+    float: left;
+    width: 660px;
+    flex: 1;
+}
+
+.direita{
+   float: right;
+   width: 100%;
+}
+
+#todo
+{
+    font-family: Arial, sans-serif, "times";
+    margin-left: 100px;
+}
+
+#Dragonball
+{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color:hsl(240, 1%, 41%);
+    float: left;
+}
+
+#Naruto
+{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color:hsl(240, 1%, 41%);
+    float: left;
+}
+
+#Demon
+{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color:hsl(240, 1%, 41%);
+    float: left;
+}
+
+/* titulo dos campos */
+label {
+    font-size: 12px;
+    color: black;
+}
+
+/* legenda dos campos */
+.legenda{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rodape {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 3px auto;
+    background-color:hsl(240, 1%, 41%);
+    float: right;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}
