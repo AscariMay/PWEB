@@ -1,0 +1,103 @@
+/* geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif, "times";
+    background-color: #e0dcd6;
+}
+
+/* formulario */
+#formulario {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(251, 252, 246);
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+/* título dos campos */
+label {
+    font-size: 16px;
+    font-weight: bold; /* peso ou intensidade */
+    color: #333333;
+}
+
+/* campos do texto */
+input[type="text"],
+input[type="email"],
+textarea{
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* se quiser que ocupe o espaço do form width : 100% */
+}
+
+/* campos de opçoes */
+input[type="radio"],
+input[type="checkbox"]
+{
+    margin-right: 5px;
+}
+
+/* botões */
+input[type="submit"],
+button[type="reset"],
+button[type="button"]
+{
+    padding: 5px 10px;
+    border: none; /* a largura, o estilho e a cor */
+    border-radius: 5px; /* define os campos */
+    font-size: 16px;
+    color : #ffffff;
+    background-color: #524b4b;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left:  10px;
+}
+
+/* botão cancelar */
+button[type="button"]
+{
+    background-color: rgb(168, 28, 28);
+}
+
+
+/* campos de seleção */
+select {
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px; /*define cantos*/
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 100px;
+    background-image: linear-gradient(#8749c2, #eeeeee);
+    /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+}
+
+/* quando selecionar campo de seleção */
+select:focus {
+    outline: 2px solid red; 
+    border-color: #333333;
+}
+
+/* legenda dos campos */
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* mensagem de erro */
+input:invalid{
+    border: 2px solid red;
+}
+
+.rodape{
+    margim: 0 auto;
+    text-align: center; /* ou width: 50% ou a largura desejada */
+    
+}
