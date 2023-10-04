@@ -15,8 +15,9 @@ function chooseChampion(choosePlayer, chooseCPU) {
         choosePlayer === 'tesoura' && chooseCPU === 'papel') {
         return 'Você venceu'
     } else {
-        return 'Voce perdeu'
+        return 'Você perdeu'
     }
+    
 }
 
 function jogarJokenpo(choosePlayer) {
