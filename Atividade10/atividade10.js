@@ -8,5 +8,5 @@ function calcularMaiorEOrdenarCrescente(n1, n2, n3) {
 }
 
 const { maior, ordenado } = calcularMaiorEOrdenarCrescente(6, 1, 5);
-console.log('Maior número: ${maior}');
-console.log('Ordenado em ordem crescente: ${ordenado}');
+console.log(`Maior número: ${maior}`);
+console.log(`Ordenado em ordem crescente: ${ordenado}`);
