@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jokenpo/title>
+</head>
+<body>
+    <h1>Jogo de Pedra, Papel e Tesoura</h1>
+    
+    <button onclick="jogarJokenpo('pedra')">Pedra</button>
+    <button onclick="jogarJokenpo('papel')">Papel</button>
+    <button onclick="jogarJokenpo('tesoura')">Tesoura</button>
+
+    <script>
+        function chooseCPU() {
+            let opcoes = ['pedra', 'papel', 'tesoura']
+            let indice = Math.floor(Math.random() * 3)
+            return opcoes[indice]
+        }
+
+        function chooseChampion(choosePlayer, chooseCPU) {
+            if (choosePlayer === chooseCPU) {
+                return 'Empate'
+            } else if (choosePlayer === 'pedra' && chooseCPU === 'tesoura' ||
+                choosePlayer === 'papel' && chooseCPU === 'pedra' ||
+                choosePlayer === 'tesoura' && chooseCPU === 'papel') {
+                return 'Você venceu'
+            } else {
+                return 'Você perdeu'
+            }
+        }
+
+        function jogarJokenpo(choosePlayer) {
+            const escolhaCPU = chooseCPU()
+            const resultado = chooseChampion(choosePlayer, escolhaCPU)
+            alert('O computador escolheu: ' + escolhaCPU + ' e você escolheu: ' + choosePlayer + ' - Resultado: ' + resultado)
+        }
+    </script>
+</body>
+</html>
