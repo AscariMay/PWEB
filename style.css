@@ -1,0 +1,23 @@
+body{
+    background-color: #191970;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #texto {
+      text-align: center;
+      font-family: sans-serif;
+      margin-bottom: 20px;
+  }
+  
+  #janela {
+    width: 800px;
+    height: 850px;
+    background-image: url('./img/janelafechada.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
